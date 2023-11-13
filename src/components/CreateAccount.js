@@ -51,6 +51,9 @@ function CreateAccount({setWallet, setSeedPhrase}) {
           >
             Open Your New Wallet
           </Button>
+          <p className="frontPageBottom" onClick={() => navigate("/")}>
+          <span>Back Home</span>
+        </p>
         </div>
       
       </>

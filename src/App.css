@@ -18,14 +18,14 @@
 }
 
 .frontPageButton {
-  width: 90%;
+  width: 100%;
   margin-top: 20px;
 }
 
 .frontPageBottom {
   align-items: flex-end;
   display: flex;
-  height: 100%;
+  margin-top: 100px;
   justify-content: center;
   width: 100%;
   margin-bottom: 15px;
@@ -88,7 +88,7 @@ header {
 
 .seedPhraseContainer {
   width: 310px;
-  min-height: 160px;
+  min-height: 200px;
   padding: 5px;
   margin-top: 30px;
 }
@@ -164,4 +164,19 @@ a{
   border-radius: 27.011px;
   background: rgba(255, 255, 255, 0.43);
   backdrop-filter: blur(5.064516067504883px);
+}
+
+.frontPageBottom2 {
+  align-items: flex-end;
+  display: flex;
+  margin-top: 15px;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 15px;
+  gap: 5px;
+}
+
+.frontPageBottom2:hover {
+  cursor: pointer;
+  color: gray;
 }
