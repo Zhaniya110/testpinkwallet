@@ -268,15 +268,14 @@ function WalletView({
           <LogoutOutlined />
         </div>
         <div className="walletName">Wallet</div>
-       
         <Tooltip title={wallet}>
           <div>
             {wallet.slice(0, 4)}...{wallet.slice(38)}
           </div>
         </Tooltip>
-        <Divider />
-         
-        <Tabs defaultActiveKey="1" items={items} className="walletView" />
+      
+          <Tabs defaultActiveKey="1" items={items} className="walletView" />
+       
       </div>
     </>
   );

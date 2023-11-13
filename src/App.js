@@ -44,6 +44,10 @@ function App() {
                 label: "Avalanche",
                 value: "0xa86a",
               },
+              {
+                label: "tBNB",
+                value: "0x61",
+              },
               
             ]
           } className="dropdown">
